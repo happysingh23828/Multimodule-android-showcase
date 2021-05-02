@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="MultiModule_Showcase.app" target="1.8" />
       <module name="MultiModule_Showcase.buildSrc" target="1.8" />
+      <module name="MultiModule_Showcase.happytoast" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

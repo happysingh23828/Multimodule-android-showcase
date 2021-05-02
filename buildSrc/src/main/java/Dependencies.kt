@@ -40,6 +40,7 @@ object Dependencies {
         const val domain = ":domain"
         const val presentaion = ":presentation"
         const val strongFormatter = ":string-formatter"
+        const val happyToast = ":happytoast"
     }
 
     object Facebook {
