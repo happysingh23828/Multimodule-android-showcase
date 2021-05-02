@@ -1,7 +1,9 @@
 plugins {
+    id 'com.github.dcendents.android-maven'
     id 'com.android.library'
     id 'kotlin-android'
 }
+group='dev.happysingh.toast'
 
 android {
     compileSdkVersion 30
