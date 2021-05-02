@@ -1,3 +1,6 @@
+import dependencies.Dependencies
+import dependencies.Version
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -10,7 +13,7 @@ android {
     defaultConfig {
         applicationId "dev.happysingh.multimodule"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion Version.targetSdk
         versionCode 1
         versionName "1.0"
 
@@ -34,6 +37,9 @@ android {
 
 dependencies {
 
+    implementation project(Dependencies.Module.strongFormatter)
+
+    
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
